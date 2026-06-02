@@ -24,5 +24,14 @@ public class App {
         } catch (IllegalArgumentException e){
             System.out.println("Exception : " + e.getMessage());
         }
+
+        Mahasiswa mahasiswa2 = new Mahasiswa();
+        mahasiswa2.sisaSks = 1;
+        try{
+            mahasiswa2.ambilMataKuliah("PBO", 12);
+
+        } catch (SksTidakCukupException s){
+            System.out.println("Exception : " + s.getMessage());
+        }
     }
 }
