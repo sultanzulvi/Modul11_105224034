@@ -51,7 +51,7 @@ public class App {
         } catch (FileNotFoundException e){
             System.out.println("Exception : " + e.getMessage());
         } finally {
-            System.out.println("Sesi Sistem Rencana Studi telah ditutup. Koneksi database diputuskan,");
+            System.out.println("Sesi Sistem Rencana Studi telah ditutup. Koneksi database diputuskan");
         }
     }
 }
